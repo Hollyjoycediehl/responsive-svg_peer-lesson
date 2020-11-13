@@ -7,7 +7,13 @@
    
 1. In the first document, replicate the logo twice and determine simplified versions for tablet and mobile
     * You will not use these replications, but they will help you envision the different logo states needed.
+![Image of Step 2](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Step%202.png)
+    
 1. Open the second, duplicate document and scale the artboard to tightly fit the logo. Be careful not to cut off any edges.
 1. Group elements based on what you want to hide for the responsive versions determined in step 2.
-1. Go to:  File > Save as > Select SVG format > Save
-1. Make sure the image location is set to “Embed”
+![Image of Step 4](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Step%204.png)
+
+1. Go to:  File > Export as > Select Format: SVG > Export
+1. Make sure you have these settings:
+
+![Image of Step 4](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Step%206.png)
