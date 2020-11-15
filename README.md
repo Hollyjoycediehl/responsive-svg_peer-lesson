@@ -9,7 +9,8 @@ SVGs (scaleable vector graphics) can be used in place of other image file format
    
 1. Replicate the logo and determine simplified versions for tablet and mobile.
     * You will not use these replications, but they will help you envision the different logo states.
-![Image of Step 2](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Step%202.png)
+    
+![Image of Step 2](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Step%201.png)
     
 1. Open a new copy of <code>sample_logo.ai</code>. You will eventually save this file out as the svg.
 
