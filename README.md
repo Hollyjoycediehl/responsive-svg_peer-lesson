@@ -1,7 +1,7 @@
 # Creating Responsive SVG Logos
 <b> This is an instructional repository on how to create a responsive svg using Adobe Illustrator and CSS </b>
 
-SVGs (scaleable vector graphics) can be used in place of other image file formats and easily enable graphics to have responsive abilities. This tutorial is focused on creating responsive svg logos that change format based on screen size. 
+SVGs (scaleable vector graphics) can be used in place of other image file formats and have responsive abilities. This tutorial is focused on creating responsive svg logos that change format based on screen size. 
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ After completing the previous steps, the file is now ready to be exported.
 
 1. Now that you have <code>hauer-logo.svg</code> saved out, move this file into the <code>images</code> folder.
 
-1. Next, open the <code>index.html</code> file and search for the <code>#main-svg</code>. Add the file name to complete the image path.
+1. Next, open the <code>index.html</code> file and search for the <code>#main-svg</code> tag. Add the svg file name to complete the image path.
 
 At this point, the logo should appear and fill the entire screen. It will scale with your screen size, but does not yet change format.
 
@@ -72,4 +72,6 @@ This tag is used specifically for storing svg information and aids in the access
 
 1. Copy these settings or mess around with hiding other layers!
 
-You can easily switch out a personal logo and follow these same steps to create your own unique responsive logo :)
+The final product should be the full logo at 1200px and the logo without the tagline at lower screen resolutions!
+
+<b>You can easily switch out a personal logo and follow these same steps to create your own unique responsive logo :)</b>
