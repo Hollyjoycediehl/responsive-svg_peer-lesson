@@ -7,8 +7,8 @@ SVGs (scaleable vector graphics) can be used in place of other image file format
 
 1. Download and open the sample logo file, <code>sample_logo.ai</code> in Adobe Illustrator. 
    
-1. Replicate the logo and determine simplified versions for tablet and mobile.
-    * You will not use these replications, but they will help you envision the different logo states.
+1. Duplicate the logo and determine simplified versions for tablet and mobile.
+    * You will not use these duplications, but they will help you envision the different logo states.
     
 ![Image of Step 2](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Step%201.png)
     
