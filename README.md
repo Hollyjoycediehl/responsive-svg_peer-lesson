@@ -24,6 +24,10 @@ SVGs (scaleable vector graphics) can be used in place of other image file format
 * Group 2 > <code>hauer</code>
 * Group 3 > <code>tagline</code>
 
+## Add CSS
+
+1. 
+
 ## Exporting the File
 After completing the previous steps, the file is now ready to be exported.
 
@@ -57,10 +61,10 @@ This tag is used specifically for storing svg information and aids in the access
 
 1. Next, we will hide or display groups based on our desired version of the graphic for each screen resolution.
 
-1. I wanted the full logo at 1200px resolution, but decided to remove the tagline at the smaller resolutions. I used <code>display: block</code> and <code>display: none</code> to effect which layers would be displayed or removed as the screen lessens in resolution. 
+1. I wanted the full logo at 1200px resolution, but decided to remove the tagline at the smaller resolutions. I used <code>display: block</code> and <code>display: none</code> to effect which layers would be displayed or removed as the screen lessened in resolution. Make sure to start by listing the higher resolutions first. The commands in the first <code>@media</code> will be cancelled out by the second <code>@media</code> and so on.
 
 ![Image of style tag](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Example_style%20tag.png)
 
 1. Copy these settings or mess around with hiding other layers!
 
-You can easily switch out a personal logo and follow these same steps to create your own unique responsive logo :) 
+You can easily switch out a personal logo and follow these same steps to create your own unique responsive logo :)
