@@ -33,7 +33,7 @@ After completing the previous steps, the file is now ready to be exported.
 
 ![Image of Step 4](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Step%206.png)
 
-## Adding and Implimenting the File
+## Adding the File
 
 1. Now that you have <code>hauer-logo.svg</code> saved out, move this file into the <code>images</code> folder.
 
@@ -41,4 +41,26 @@ After completing the previous steps, the file is now ready to be exported.
 
 At this point, the logo should appear and fill the entire screen. It will scale with your screen size, but does not yet change format.
 
+## Implimenting Responsive Formats
 
+1. Open <code>hauer-logo.svg</code> in a text editor.
+
+1. In the file, you should see three different groups of paths labeled <code>single</code>, <code>hauer</code> and <code>tagline</code>. These groups get carried over from the <code>.ai</code> file.
+
+1. After the opening svg tag, add a new opening and closing <code>defs</code> tag. It should look like this: 
+
+![Image of def tag](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Example_def%20tag.png)
+
+This tag is used specifically for storing svg information and aids in the accessibility of the document.
+
+1. Inside the <code>defs</code> tag, add an opening and closing <code>style</code> tag. This will house your responsive styles.
+
+1. Next, we will hide or display groups based on our desired version of the graphic for each screen resolution.
+
+1. I wanted the full logo at 1200px resolution, but decided to remove the tagline at the smaller resolutions. I used <code>display: block</code> and <code>display: none</code> to effect which layers would be displayed or removed as the screen lessens in resolution. 
+
+![Image of style tag](https://github.com/JuliaSchantz/responsive-svg_peer-lesson/blob/main/Images/Example_style%20tag.png)
+
+1. Copy these settings or mess around with hiding other layers!
+
+You can easily switch out a personal logo and follow these same steps to create your own unique responsive logo :) 
