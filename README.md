@@ -45,7 +45,7 @@ At this point, the logo should appear and fill the entire screen. It will scale 
 
 1. Link in the <code>styles.css</code> page in the<code>head</code>
 
-1. Move to the <code>styles.css</code> page and find the <code>#svg</code> tag. Instead of setting a pixel dimension for the svg, you will set a width so it can act responsively based on screen resolution. I found the range 30%-35% to be an appropriate size for a logo in the nav bar, but you can experiment with size when implimenting this on a personal logo.
+1. Move to the <code>styles.css</code> page and find the <code>#svg</code> tag. Instead of setting a pixel dimension for the svg, you will set a width so it can act responsively based on screen resolution. I found the range 30%-35% to be an appropriate size for a logo in the nav bar, but you can experiment with size if you choose to impliment this on a personal logo.
 
 1. For now, set the width to <code>width: 35%</code>.
 
