@@ -1,0 +1,19 @@
+#layout {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+}
+
+#svg{
+
+  height: auto;
+}
+
+/* Responsive styles */
+
+@media (min-width: 768px) {
+  #svg {
+    margin: 10px 0 25px 30px;
+  }
+}
