@@ -24,10 +24,6 @@ SVGs (scaleable vector graphics) can be used in place of other image file format
 * Group 2 > <code>hauer</code>
 * Group 3 > <code>tagline</code>
 
-## Add CSS
-
-1. 
-
 ## Exporting the File
 After completing the previous steps, the file is now ready to be exported.
 
@@ -44,6 +40,14 @@ After completing the previous steps, the file is now ready to be exported.
 1. Next, open the <code>index.html</code> file and search for the <code>#main-svg</code>. Add the file name to complete the image path.
 
 At this point, the logo should appear and fill the entire screen. It will scale with your screen size, but does not yet change format.
+
+## Add CSS
+
+1. Link in the <code>styles.css</code> page in the<code>head</code>
+
+1. Move to the <code>styles.css</code> page and find the <code>#svg</code> tag. Instead of setting a pixel dimension for the svg, you will set a width so it can act responsively based on screen resolution. I found the range 30%-35% to be an appropriate size for a logo in the nav bar, but you can experiment with size when implimenting this on a personal logo.
+
+1. For now, set the width to <code>width: 35%</code>.
 
 ## Implimenting Responsive Formats
 
